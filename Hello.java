@@ -1,11 +1,6 @@
-public class Hello{
-    public static void main (String args[]){
-        byte b = 127;
-        int a = b;
-        byte k = (byte)a;
-        System.out.println(k);
-        float f = 5.6f;
-        int t = (int)f;
-        System.out.println(t);
+// 1. Write a Hello World Program in Java
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
     }
 }
